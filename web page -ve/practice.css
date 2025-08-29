@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    position: sticky;
+    top: 0;
+    
+    gap: 90px;
+    height: 8vh;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right,black 15%,rgb(82, 82, 82) 85%);
+    flex-wrap: wrap;
+    
+}
+#home{
+    
+    margin-right: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:  3.4vw;
+    color: aliceblue;
+    /* margin-left:auto; */
+    text-decoration: none;
+}
+#last{
+    margin-right: 2vw;
+}
+header a{
+    font-size: 3.4vh;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+}
+header a:hover{
+    color:rgb(255, 145, 0);
+    text-decoration:solid rgb(255, 123, 0) underline;
+}
+.wrraper h1{
+    margin-right: 42vw;
+    
+}
+#greet{
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    color: aliceblue;
+    /* display: flex;
+    flex-direction: column; */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 10vh;
+    
+    overflow-x: hidden;
+    background-image: url("aka.png");
+    background-repeat: no-repeat;
+    background-position: right, left;
+    background-size: 100% 100%;
+    
+  
+}
+#h2{
+    font-size: 7vh; 
+    margin-bottom: 5vh;
+    margin-right: 11vw;
+
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+
+.b{
+    font-size: 3vw;
+    display: inline-block;
+    text-decoration: none;
+    font-family:'Poppins';
+
+    
+    /* margin-left: 8vw ; */
+    margin-right: 8vw;
+    /* color: rgb(17, 105, 76); */
+    border: 2px solid rgb(0, 0, 0);
+    padding: 20px;
+    /* background-image: lineart(to right,rgb(0, 0, 0) 45%,rgb(255, 255, 255)50%); */
+    border-radius: 25px;
+    background-color:rgb(225, 246, 0);
+    /* box-shadow: 4px 5px 6px black; */
+    color: rgba(0, 0, 0,4);
+    box-shadow: 4px 6px 16px rgb(0, 0, 0);
+    
+}
+
+.b:hover{
+    /* background-image: linear-gradient(to left,rgb(255, 221, 0) 45%,rgb(255, 255, 255)50%); */
+    transform: translateY(-5px);
+    box-shadow: 4px 6px 19px rgb(105, 38, 38);
+    /* color: rgb(215, 0, 165); */
+    border: 2px solid rgb(17, 105, 76);
+    color: rgb(13, 187, 129);
+}
+#id{
+    margin-left: 0;
+}

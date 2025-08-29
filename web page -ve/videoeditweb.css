@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+}
+body{
+    overflow-x: hidden;
+    background-color: black;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 7vh;
+    align-items: center;
+    position:sticky;
+    top: 0;
+    background: #000;
+    z-index: 100;
+}
+#b{
+    color: red;
+    font-size: 3vw;
+    text-decoration: none;
+    text-shadow: 19px 2px 26px;
+    
+}
+a{
+    font-size: 2vw;
+    text-decoration: none;
+    color: rgb(152, 139, 139);
+}
+a:hover{
+    color: yellow;
+}
+    
+nav {
+    display: flex;
+    gap: 30px;
+    margin-right: 20px;
+}
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+
+}
+h1{
+    font-size: 9vw;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.wrapper p{
+   font-size: 2vw;
+   margin-left: 75vw;
+   /* opacity: 0; */
+   transition: opacity 1.5s ease-in;
+}
+#about{
+    width: 90vw;
+    height: 59vh;
+    margin-left: 5vw;
+    align-items: center;
+    align-content:center;
+    /* justify-content: center; */
+    justify-items: center;
+    position: relative;
+    
+}
+#about h2{
+    font-size: 3vw;
+}
+#about p{
+    margin-top: 30px;
+    word-spacing: 10px;
+}
+#about div{
+    justify-items: center;
+    display: inline-block;
+    margin: 25px;
+    border: 2px solid black;
+    padding: 1vw;
+    padding: 2vw 2vw;
+    font-size: 20px;
+    color: rgba(255, 0, 187,0);
+    border-radius: 20px;
+}
+.hi:hover{
+    filter: blur(0px); 
+     
+}
+.hi{
+    filter: blur(2px);
+    transition: filter 0.4s ease;
+    
+}
+#color{
+    background-image: url(balance-lg.jpg);
+    background-position: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#green{
+    background-image: url(Screenshot\ 2025-08-08\ 103747.png);
+    background-position: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#motion{
+    
+    background-image: url(Screenshot\ 2025-08-09\ 182600.png);
+    background-position: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#pp{
+    
+    background-image: url(Screenshot\ 2025-08-09\ 182957.png);
+    background-position: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+     
+
+}
+#projects{
+   height: 80vh;
+   /* display: grid; */
+   text-align: center;
+
+}
+#projects h2{
+    margin-bottom: 5vh;
+    font-size: 3vw;
+}
+
+#projects div{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 15px;
+        column-gap: 20px;
+    }
+
+iframe {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        border: none;
+        border-radius: 10px;
+        transition: transform 0.3s ease;
+    }
+iframe:hover{
+    transform: translatey(-20px);
+}
